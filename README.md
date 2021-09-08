@@ -4,7 +4,7 @@ You can see one list of all the pokemons that I have. Welcome!
 Click here: [https://simple-pokedex-maided.herokuapp.com/](http://https://simple-pokedex-maided.herokuapp.com/ "https://simple-pokedex-maided.herokuapp.com/")
 
 
-# How did I deploy?
+### How did I deploy?
 This project it's hosted on Heroku.
 This needed to add node and npm compatible versions.
 
@@ -27,7 +27,7 @@ Finally, deploy!
 git push heroku master
 ```
 
-
+### Can you run this?
 Alsooooo.... You can run this project in your environment:
 
 ```sh
