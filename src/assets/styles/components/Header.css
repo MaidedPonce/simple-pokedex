@@ -1,0 +1,17 @@
+.header {
+  background-image: linear-gradient(
+    225deg,
+    #ffffc5 0,
+    #fbeaa5 25%,
+    #f0d484 50%,
+    #e6bd64 75%,
+    #dda747 100%
+  );
+  height: 150px;
+  grid-column: 1/9;
+  margin: 0;
+}
+
+.header h1 {
+    margin: 50px;
+}

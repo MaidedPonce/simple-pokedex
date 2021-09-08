@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: "Urbanist", sans-serif;
+}
+
+.root {
+  display: grid;
+  grid-template: repeat(5, 243px) / repeat(8, 160.25px);
+}
+
+@media only screen and (max-width: 1080px) {
+  .root {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+  }
+  .header {
+      height: 250px;
+  }
+  .header h1 {
+    margin: 90px;
+    font-size: 60px;
+  }
+  .pokemon {
+    margin: 150px auto auto auto;
+    width: 660px;
+    height: 1220px;
+  }
+
+  .pokemon__container {
+    grid-template: repeat(10, 100px) / repeat(2, 49%);
+  }
+}

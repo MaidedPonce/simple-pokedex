@@ -1,0 +1,30 @@
+.pokemon {
+  background: #6fd6ff;
+  border: 5px solid #ffeb7f;
+  border-radius: 3%;
+  box-shadow: 1px 1px 15px black;
+  display: grid;
+  height: 850px;
+  grid-row: 2/6;
+  grid-column: 2/8;
+}
+
+.pokemon__container {
+  display: grid;
+  gap: 15px;
+  grid-template: repeat(7, 100px) / repeat(3, 32%);
+  width: 100%;
+}
+
+.pokemon__card {
+  display: grid;
+  height: 120px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+.pokemon__card p {
+  margin: 0;
+}
