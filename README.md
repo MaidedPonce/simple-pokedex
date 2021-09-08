@@ -1,7 +1,7 @@
 # This is a simple pokedex!
 
 You can see one list of all the pokemons that I have. Welcome!
-Click here: [https://simple-pokedex-maided.herokuapp.com/](http://https://simple-pokedex-maided.herokuapp.com/ "https://simple-pokedex-maided.herokuapp.com/")
+Click here: https://simple-pokedex-maided.herokuapp.com/
 
 
 ### How did I deploy?
